@@ -51,7 +51,7 @@ tl.from("#nav",{
 })
 }
 function cursorAnimation(){
-    loadingAnimation();
+   
 document.addEventListener("mousemove", function(dets){
     gsap.to("#crsr",{
         left: dets.x,
@@ -61,5 +61,5 @@ document.addEventListener("mousemove", function(dets){
 
 Shery.makeMagnet("#nav-part2 h4" , {});
 }
-
+loadingAnimation();
 cursorAnimation();

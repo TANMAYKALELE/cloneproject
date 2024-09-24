@@ -164,6 +164,10 @@ html , body{
     font-weight: 600;
     text-transform: uppercase;
     line-height: 7.2vw;
+    border-bottom: 0.5vw solid white;
+    padding-bottom: 0.8vw;
+    transition: all ease 0.3s;
+    
 
 }
 .hero h2:hover{
